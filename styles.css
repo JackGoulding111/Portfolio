@@ -1,4 +1,6 @@
-body {background-color: #0a0f2b;}
+body {
+  background-color: #4A6FA5;
+}
 
 #name {
   position: fixed;
@@ -6,14 +8,46 @@ body {background-color: #0a0f2b;}
   left: 20px;
   font-family: monospace;
   font-size: 18px;
-  color: #008000;
+  color: #0B0F2F;
 }
 
 #middleName {
-    position: fixed;
-    top: 30%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: #008000;
+  margin-top: 300px;
+  text-align: center;
+  font-size: 50px;
+  color: #0B0F2F;
+  white-space: nowrap;
+  font-family: monospace;
+}
+
+
+#projects {
+  text-align: center; 
+  margin-top: 20px;
+}
+
+
+.card img {
+  width: 100%;
+  display: block; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card {
+  width: 200px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 2px;
+  background-color: #0B0F2F;
+  border: 3px solid #0B0F2F; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+}
+
+.card-title {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center; 
+  font-family: monospace;
 }
