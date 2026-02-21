@@ -1,40 +1,79 @@
 body {
-  background-color: #4A6FA5;
+  background: #1a191d;
 }
+
 
 #name {
   top: 20px;
   left: 20px;
   font-family: monospace;
   font-size: 25px;
-  color: #0B0F2F;
+  color: #66d9ed;
 }
 
 #name a:link {
-  color: #0B0F2F;
+  color: #66d9ed;
   text-decoration: none;
 }
 
 #name a:visited {
-  color: #0B0F2F;
+  color: #66d9ed;
   text-decoration: none;
 }
 
 #middleName {
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
-  font-size: 50px;
-  color: #0B0F2F;
+  font-size: 150px;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+}
+
+#title {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
   white-space: nowrap;
   font-family: monospace;
+  font-family: 'Roboto Mono', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#skills {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+#skills img {
+  width: 30px;
+  height: 40px;
+}
+
+#skills img.square-logo {
+    width: 37px;
+    height: 37px;
 }
 
 #project-title {
-  margin-top: 50;
+  margin-top: 50px;
   text-align: center;
   font-family: monospace;
   font-size: 40px;
-  color: #0B0F2F;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 #projects {
@@ -46,9 +85,9 @@ body {
   width: 200px;
   color: #ffffff;
   display: inline-block;
-  margin: 2px;
-  background-color: #0B0F2F;
-  border: 3px solid #0B0F2F;
+  margin: 5px;
+  background-color: #201f23;
+  border: 3px solid #201f23;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
   overflow: hidden;
@@ -67,6 +106,7 @@ body {
   text-align: center;
   font-family: monospace;
   transition: transform 0.3s;
+  font-family: 'Poppins', sans-serif;
 }
 
 .card-image {
